@@ -102,7 +102,7 @@ if (message.author.bot) return;
     }
 
 });
-var prefix = "*";
+var prefix = "/";
 
 client.on('message', message => {
     if (message.author.bot) return;
@@ -322,6 +322,9 @@ client.on('message', message => {
   console.log('[id] Send By: ' + message.author.username)
     }
 });
+
+
+
 
 
 
