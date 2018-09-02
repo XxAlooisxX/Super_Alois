@@ -33,7 +33,6 @@ client.on("message", message => {
 **
 『id / معلومات عن حسابك』
 『embed / يكرر كلامك بمبيد』
-『roles / يعرض لك الرتب و عددها』
 『rooms / يعرض لك الرومات وعددها』
 『server / معلومات عن السيرفر』
 『animal / يعطيك صور حيوانات』
@@ -72,17 +71,6 @@ f!add.r
 『bc /برودكاست』
 **
 
-        ***__Special orders __***
-**
-『youtube / باحث اليوتيوب 』
-『afk / تصبح خارج النطاق』
-『AutoRole / اعطاء شخص رتبه تلقائيه عند دخوله』
-『imgwelcome / لتفعيل الترحيب بصوره 』
-『colors / لي عرض قائمه الوان السيرفر』
-『color / لي تغير لونك』
-『rainbow / الرنبو』
-**
-
         ***__Games orders__***
  **       
 『لعبه صراحه / صراحه』
@@ -93,13 +81,7 @@ f!add.r
 『يعطيك عقاب و لازم تنفذه / عقاب』
 『لعبه اسئله / كت تويت』
 **
-   
-        ***__Minecraft orders__***
-**          
-『mq / اسئله عن ماين كرافت』
-『mp / صور عن ماين كرافت』
-『mf / معلومات عن ماين كرافت』
-**  
+
         
 `)
 
@@ -1213,7 +1195,7 @@ client.on('ready',  () => {
 client.on('ready', function(){
     client.user.setStatus("dnd");
     var ms = 100000 ;
-    var setGame = [`@help`,`『Legend Raider』1K`];
+    var setGame = [`@help`,`SsEluxX`];
     var i = -1;
     var j = 0;
     setInterval(function (){
